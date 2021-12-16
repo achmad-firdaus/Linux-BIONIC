@@ -3,7 +3,9 @@ About all linux Bionic 18.04
 
 # Instalation webserver
 
-    Install Apache2(sudo apt install apache2 apache2-utils)
+Install Apache2
+
+    sudo apt install apache2 apache2-utils
 
 Install Php:
 
@@ -47,13 +49,10 @@ add mpdf:
   
     sudo apt-get install php5.6-mbstring
 
-If Error 500 
+If Error 500, if your check link website and not allowed .htaccess in log apache2, use this:
   
     sudo a2enmod rewrite
     sudo service apache2 restart
-
-if your check link website and not allowed .htaccess in log apache2, use this:
-    
     a2enmod rewrite
     systemctl restart apache2
 
@@ -63,46 +62,8 @@ Check:
     sudo service apache2 status
     /usr/lib/postgresql/10/bin/postgres -V 
     sudo /etc/init.d/postgresql status
-
-This for change password db in psql:
-
-    ALTER USER postgres PASSWORD 'postgres';
-
-Set time zone postgres
-
-    sudosu
-    su - postgres
-    psql
-    select now();
-    show timezone;
-    set timezone to 'Asia/Jakarta';
-
-Set time zone permanent
-
-    /etc/postgresql/10/main# cat postgresql.conf
-
-Untuk lihat jenis time:
     
-    select * from pg_timezone_names;
-    ubah postgresql.conf
-    Etc/GMT+7
-
-
-Set time zone server:
-
-    date "+%H:%M:%S   %d/%m/%y"
-    > 01:54:44   18/10/21
-
-This for backup default time:
     
-    sudo mv /etc/localtime /etc/localtime.orig
-
-This for change time zone:
     
-    sudo ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
     
-    date
-    >Mon Oct 18 08:57:41 WIB 2021
-
-
-
+    
