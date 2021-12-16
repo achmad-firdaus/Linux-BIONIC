@@ -3,7 +3,6 @@
     su - postgres
     psql
 
-
 # Set Time Zone
 
 Select Date NOW
