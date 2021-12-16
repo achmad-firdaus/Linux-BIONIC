@@ -25,6 +25,18 @@
 
         date
         >Mon Oct 18 08:57:41 WIB 2021
+
+- Check status
+
+        timedatectl status
+
+- Set Time Zone automatically disabled
+  
+        timedatectl set-ntp 0
+
+- Set Time Zone automatically enabled
+  
+        timedatectl set-ntp 1
     
 #### CRONTAB 👻
 
