@@ -1,7 +1,6 @@
-# Linux-BIONIC
-About all linux Bionic 18.04
+# Instalation Web Server Linux-BIONIC
 
-# Instalation webserver
+### linux Bionic 18.04
 
 Install Apache2
 
