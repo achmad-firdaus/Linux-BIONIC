@@ -1,12 +1,9 @@
-# Linux-BIONIC
+# Linux-BIONIC <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 About all linux Bionic 18.04
 
-![dokumentasi Database dapat dilihat]disini
-
-[![Header](https://raw.githubusercontent.com/MartinHeinz/<OWNER>/<OWNER>/readme_header.png "Header")](https://some-url.dev/)
+[![Items List](https://raw.githubusercontent.com/MartinHeinz/<OWNER>/<OWNER>/readme_header.png "Header")](https://some-url.dev/)
 # Items List
-   * <a href="https://github.com/achmad-firdaus/Linux-BIONIC/blob/main/Install-WebService.md" onclick="return ! window.open(this.href);">Installation Web Server</a>
-   * <a href="https://github.com/achmad-firdaus/Linux-BIONIC/blob/main/Linux-Ubuntu.md" onclick="return ! window.open(this.href);">Linux Command</a>
-   * <a href="https://github.com/achmad-firdaus/Linux-BIONIC/blob/main/PostgreSql.md" onclick="return ! window.open(this.href);">PostgreSql Command</a>
+   * [Installation Web Server](Install-WebService.md).
+   * [Linux Command](Linux-Ubuntu.md).
+   * [PostgreSql Command](PostgreSql.md).
 
-dokumentasi Database dapat dilihat [di sini](Install-WebService.md).
