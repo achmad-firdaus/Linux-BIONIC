@@ -1,6 +1,6 @@
-# LINUX <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# LINUX UBUNTU <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-#### List
+#### LIST
 - [Set time zone server 👻](#set-time-zone-server-)
 - [Crontab 👻](#crontab-)
 
