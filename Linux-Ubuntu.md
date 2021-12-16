@@ -1,4 +1,10 @@
-# Set time zone server
+# LINUX <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+
+#### List
+- [Set time zone server 👻](#set-time-zone-server-)
+- [Crontab 👻](#crontab-)
+
+#### SET TIME ZONE SERVER 👻
 
 Check your date
 
@@ -16,7 +22,21 @@ Change Time Zone Asia Jakarta
     date
     >Mon Oct 18 08:57:41 WIB 2021
     
+#### CRONTAB 👻
+
+Check crontab
+
+    crontab -l
+
+Edit crontab
+
+    crontab -e
     
+Remove all crontab
+
+    crontab -r
+
+
     
     
     
