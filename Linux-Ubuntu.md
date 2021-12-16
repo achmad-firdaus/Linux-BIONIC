@@ -62,7 +62,7 @@
 
 #### PERMISSION 👻
 
-- Permission
+- Permission all in
 
         chmod -R 777 <folder/file name> or chmod -R 775 <folder/file name>
 
