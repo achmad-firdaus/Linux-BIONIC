@@ -5,12 +5,12 @@
 - [Set Time Zone 👻](#set-time-zone-)
 - [Change password 👻](#change-password-)
 
-#### Enter into the PostgreSql 👻
+#### ENTER INTO THE POSTGRESQL 👻
     sudosu
     su - postgres
     psql
 
-#### Set Time Zone 👻
+#### SET TIME ZONE 👻
 
 Select Date NOW
 
@@ -33,5 +33,5 @@ Check Type Time Zone
     select * from pg_timezone_names;
 
 
-#### Change password 👻
+#### CHANGE PASSWORD 👻
     ALTER USER postgres PASSWORD 'postgres';
