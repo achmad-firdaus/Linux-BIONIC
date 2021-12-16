@@ -2,7 +2,7 @@
 
 #### LIST
 - [Enter into the PostgreSql 👻](#into-)
-- [Set Time Zone 👻](#into-)
+- [Set Time Zone 👻](#set-time-zone-)
 
 #### INTO 👻
     sudosu
