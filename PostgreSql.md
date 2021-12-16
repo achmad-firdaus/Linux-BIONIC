@@ -1,10 +1,11 @@
 # POSTGRESQL <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 #### LIST
-- [Enter into the PostgreSql 👻](#into-)
+- [Enter into the PostgreSql 👻](#enter-into-the-postgresql-)
 - [Set Time Zone 👻](#set-time-zone-)
+- [Change password 👻](#change-password-)
 
-#### INTO 👻
+#### Enter into the PostgreSql 👻
     sudosu
     su - postgres
     psql
