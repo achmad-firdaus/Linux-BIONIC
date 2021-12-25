@@ -21,6 +21,7 @@ if no have connection internet always disconected ping to server:
 
 
 #HOW
+
 Stop Apache2:
 
     sudo systemctl stop apache2
