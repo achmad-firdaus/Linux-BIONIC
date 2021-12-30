@@ -1,26 +1,51 @@
+# TUNING APACHE SERVICE <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-### Before
+#### LIST
+- [Before Tuning TO Fast CGI (INFO) 👻](#before-tuning-)
+- [Testing Ab Before Tuning 👻](#testing-ab-before-tuning-)
+- [After Tuning TO Fast CGI (INFO) 👻](#after-tuning-)
+- [Testing Ab After Tuning 👻](#testing-ab-after-tuning-)
+- [How To Used FASTCGI👻](#how-to-used-fastcgi-)
 
-phpinfo:
-![image](https://user-images.githubusercontent.com/77251566/147375288-27d9eed0-b928-4b99-ad95-1ca99ab60a2d.png)
+#### BEFORE TUNING 👻
 
-apache version no have mpm:<br>
-![image](https://user-images.githubusercontent.com/77251566/147375318-6e83e968-d6b2-4792-8dac-ee7b110d9129.png)
+Php Info Original:
+-Server Api still used apache
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147375288-27d9eed0-b928-4b99-ad95-1ca99ab60a2d.png">
+</p>
 
-### TESTING AB
+#### TESTING AB BEFORE TUNING 👻
 
-if have connection internet:
-![image](https://user-images.githubusercontent.com/77251566/147375529-3d6478f1-6c96-40b7-82b0-33ed99f1c278.png)
-![image](https://user-images.githubusercontent.com/77251566/147375543-7658ea52-6989-43fb-99d2-4e5fad05e90b.png)
+Test With Connection Internet:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147375529-3d6478f1-6c96-40b7-82b0-33ed99f1c278.png">
+</p>
+This Is The Result Test of a Test That Failed:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147375543-7658ea52-6989-43fb-99d2-4e5fad05e90b.png">
+</p>
+Test With NO Connection Internet The Result Test Stuck:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147375489-d5e0dbf5-7eba-430e-bb9c-1d55d55c36db.png">
+</p>
 
-if no have connection internet always disconected ping to server:
-![image](https://user-images.githubusercontent.com/77251566/147375489-d5e0dbf5-7eba-430e-bb9c-1d55d55c36db.png)
+#### AFTER TUNING 👻
 
-### After
-![image](https://user-images.githubusercontent.com/77251566/147376281-a6ada314-9b19-4ecd-8407-4fe42e04d8b6.png)
+Php Info Original:
+-Server Api have used FPM/FASTCGI
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147376281-a6ada314-9b19-4ecd-8407-4fe42e04d8b6.png">
+</p>
 
+#### TESTING AB AFTER TUNING 👻
 
-#HOW
+Test With Connection Internet No Have Result Failed:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77251566/147793701-9d9b767e-33f3-41f5-945d-7bae121eaa9e.png">
+</p>
+
+#### HOW TO USED FASTCGI 👻
 
 Stop Apache2:
 
