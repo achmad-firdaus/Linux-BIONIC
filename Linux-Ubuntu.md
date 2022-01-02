@@ -7,6 +7,8 @@
 - [Zip 👻](#zip-)
 - [Permission 👻](#permission-)
 - [Remove 👻](#remove-)
+- [Watch Performance 👻](#watch-performance-)
+- [Watch Ram 👻](#watch-ram-)
 
 #### SET TIME ZONE SERVER 👻
 
@@ -83,3 +85,18 @@
 - Folder & File
 
         rm -r <folder/file name> 
+        
+#### WATCH PERFORMANCE 👻
+
+- If you don't have htop, you must install befor used 'htop' command :
+
+        sudo apt install htop
+        htop
+
+#### WATCH RAM 👻
+
+- Delay 1 second:
+
+        watch -n 1 free -m
+        
+        
