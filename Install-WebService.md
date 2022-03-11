@@ -32,6 +32,10 @@ Install Php 5.6:
     sudo apt-get install php5.6-xml
     sudo apt-get install php5.6-zip
     
+Install Php GD 5.6:
+
+    sudo apt-get install php5.6-gd
+
 Setting Up htaccess:
 
     sudo nano /etc/apache2/sites-available/000-default.conf
