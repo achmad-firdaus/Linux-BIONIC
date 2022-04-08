@@ -9,6 +9,11 @@ Install Apache2
 Install Php:
 
     sudo add-apt-repository ppa:ondrej/php
+    
+    if error add repository:
+    sudo apt-get install software-properties-common
+    sudo apt-get update
+    
     sudo apt-get update
     sudo apt-get install -y php5.6
 
