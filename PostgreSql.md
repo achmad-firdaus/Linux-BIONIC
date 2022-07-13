@@ -9,7 +9,7 @@
 - [Error 👻](#error-)
 
 #### ENTER INTO THE POSTGRESQL 👻
-    sudosu
+    sudo su
     su - postgres 
         exit (if you want exit)
     psql
